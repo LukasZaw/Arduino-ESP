@@ -17,6 +17,28 @@ Below is a list of projects included in this repository:
 
 
 
+## 🔒 Managing Wi-Fi Credentials
+To keep your Wi-Fi credentials secure, I used a separate configuration file:
+1. Create a file named `config.h` in your project folder.
+2. Add the following content:
+   ```cpp
+   #ifndef CONFIG_H
+   #define CONFIG_H
+
+   const char* ssid = "your-SSID";
+   const char* password = "your-PASSWORD";
+
+   #endif
+   ```
+3. Include this file in your main source file:
+   ```cpp
+   #include "config.h"
+   ```
+4. Add `config.h` to `.gitignore` to prevent it from being uploaded to GitHub:
+   ```
+   config.h
+   ```
+
 ## 📚 Used for Projects
 - ESP8266-based board (ESP-12E NodeMCU)
 - Arduino IDE and VS Code
