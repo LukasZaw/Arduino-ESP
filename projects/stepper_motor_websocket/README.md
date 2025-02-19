@@ -25,7 +25,7 @@ This project enables remote control of a **stepper motor** using an **ESP8266** 
 
 ## Components Used
 
-- **ESP8266 (NodeMCU, Wemos D1 Mini, etc.)**
-- **Stepper Motor (28BYJ-48 or similar)**
+- **ESP8266 - NodeMCU**
+- **Stepper Motor (28BYJ-48)**
 - **ULN2003 Motor Driver**
 - **Power Supply (5V for motor, 3.3V for ESP8266)**
