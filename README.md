@@ -6,7 +6,7 @@ Welcome to the ESP8266 Projects repository! This repository contains various pro
 ## 🚀 Projects
 Below is a list of projects included in this repository:
 
-### 1. [Dallas Web Server](projects/dallas_websever)
+### 1. [Dallas Web Server](projects/dallas_webserver)
 - **Description:** This project is a web-based temperature monitoring system using an ESP8266 and a DS18B20 temperature sensor. The temperature data is updated dynamically using AJAX requests.
 - **Features:**
   - Reads temperature data from a DS18B20 sensor.
