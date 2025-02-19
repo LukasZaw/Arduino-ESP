@@ -14,7 +14,16 @@ Below is a list of projects included in this repository:
   - Uses AJAX to update temperature values without refreshing the page.
   - Displays data in both Celsius and Fahrenheit.
   - Connects to Wi-Fi for remote monitoring.
-
+ 
+### 2. [Stepper Motor Control with Web Interface](projects/stepper_motor_websocket)
+- **Description:** This project enables remote control of a stepper motor using an ESP8266 microcontroller. It hosts a web-based interface where users can select the motor's rotation direction and specify the number of steps. The ESP8266 communicates via WebSockets for real-time updates, ensuring smooth and interactive motor control.
+- **Features:**
+  - Web-based control panel for stepper motor direction and step count
+  - Real-time motor state updates using WebSockets
+  - Responsive web interface with intuitive controls
+  - Uses LittleFS for serving HTML, CSS, and JavaScript files
+  - ESP8266-based Wi-Fi connectivity for remote operation
+  - Supports AccelStepper library for precise motor control
 
 
 ## 🔒 Managing Wi-Fi Credentials
